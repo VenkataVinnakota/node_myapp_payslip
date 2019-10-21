@@ -1,0 +1,22 @@
+{
+    "taxClassOneMin": 0,
+    "taxClassOneMax": 18200,
+    "taxClassTwoMin": 18201,
+    "taxClassTwoMax": 37000,
+    "taxClassThreeMin": 37001,
+    "taxClassThreeMax": 87000,
+    "taxClassFourMin": 87001,
+    "taxClassFourMax": 180000,
+    "taxClassFiveMin": 180001,
+
+    "minTaxClassOne": 0,
+    "minTaxClassTwo": 3572,
+    "minTaxClassThree": 19822,
+    "minTaxClassFour": 54232,
+
+    "taxPercClassOne": 0,
+    "taxPercClassTwo": 0.19,
+    "taxPercClassThree": 0.325,
+    "taxPercClassFour": 0.37,
+    "taxPercClassFive": 0.45
+}
