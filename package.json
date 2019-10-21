@@ -1,0 +1,29 @@
+{
+  "name": "test1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha './tests/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VenkataVinnakota/node_my_payslip_app.git"
+  },
+  "author": "Vikas",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.6.3",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  }
+}
