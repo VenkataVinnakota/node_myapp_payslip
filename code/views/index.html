@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>MY APP</title>
+        <script src="/static/jquery-3.4.1.min.js"></script>
+    </head>
+
+    <script src="/static/main.js"></script>
+
+    <body>
+      <main>
+        <h1>Payslips Generator!</h1>
+        <p>
+            Please upload a csv file with the following format: <br>
+            first-name, last-name, annual-salary, super-rate(%), payment-start-date
+        </p>
+       
+        <div id="dvImportSegments" class="fileupload ">
+            <fieldset>
+                    <legend>Upload your csv file</legend>
+                        <input type="file" name="myfile" id="txtFileUpload" accept=".csv"/>
+            </fieldset>
+        </div>
+        <div class="submit">
+                <button id="display" type="submit" name="button">Show Payslip</button>
+                <button id="download" type="button" name="button">Download Payslip</button>
+        </div>
+        <div class="payslip">
+        </div>
+      </main>
+    </body>
+</html>
