@@ -10,7 +10,7 @@
   - Ryan,Chen,120000,10%,01 March – 31 March
 
 # How to run the application?
-- Clone this repo: 
+- Clone this repo: "https://github.com/VenkataVinnakota/node_myapp_payslip.git"
 - If you have node.js installed, run `npm install` to install the dependencies in the terminal under the root depository.
 - `node code/server.js` to run localhost in your browser.
 - In your loacal browser go to http://localhost:3000/
